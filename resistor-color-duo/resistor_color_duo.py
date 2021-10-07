@@ -12,4 +12,4 @@ colorsT={"black": 0,
 def value(colors):
    color1= colors[0]
    color2= colors[1]
-   return (str(colorsT[color1]) + str(colorsT[color2]))
+   return int(str(colorsT[color1]) + str(colorsT[color2]))
